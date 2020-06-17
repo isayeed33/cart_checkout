@@ -1,0 +1,66 @@
+.column {
+  float: left;
+  padding: 20px 19px 20px 19px;
+}
+
+.row {
+  margin: 0 -5px;
+  display: inline-block;
+  align-items: center;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.company, .title, .price, .total{
+  text-align: left;
+}
+
+.company{
+  font-size: large;
+  color: green;
+  font-weight: bolder;
+}
+
+.btnCart{
+  background-color: green;
+  color: white;
+  font-weight: bolder;
+  border-radius: 5%;
+  border: none;
+  cursor: pointer;
+  padding: 5px auto;
+  font-size: large;
+}
+
+.btnCount{
+  background-color: green;
+  border-radius: 40%;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.count{
+  
+  font-weight: bolder
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 16px;
+  text-align: center;
+  background-color: #f1f1f1;
+}
